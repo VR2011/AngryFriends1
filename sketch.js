@@ -101,7 +101,7 @@ function keyPressed(){
 }
 
 async function getBackgroundImg(){
-    var response = await fetch("http://worldtimeapi.org/api/timezone/america/New_York");
+    var response = await fetch("https://worldtimeapi.org/api/timezone/america/New_York");
     var responseJSON = await response.json();
 
     var datetime = responseJSON.datetime;
